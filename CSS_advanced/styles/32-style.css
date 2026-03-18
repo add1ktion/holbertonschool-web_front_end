@@ -663,7 +663,7 @@ ul.row {
 .card-testimonial .card-quote cite {
     display: block;
     padding-top: 1rem;
-    color: var(--color-primary)
+    color: var(--color-primary);
 }
 
 .card-work .card-outer {
@@ -678,13 +678,17 @@ ul.row {
     vertical-align: bottom;
 }
 
-.card-work:hover .card-image img {
+.card-work:hover .card-image {
     transform: scale(1.2);
     transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-outer {
     transform: scale(0.95);
+}
+
+.card-work:hover .card-inner {
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .card-work .card-inner {
@@ -694,10 +698,6 @@ ul.row {
     right: -0.1rem;
     z-index: 1;
     transition: var(--transition-duration) var(--transition-cubic-bezier);
-}
-
-.card-work:hover .card-inner {
-    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .card-work .card-title {
