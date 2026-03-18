@@ -593,7 +593,7 @@ ul.row {
 .card-testimonials .card-quote cite {
     display: block;
     padding-top: 1rem;
-    color: var(--color-primary)
+    color: var(--color-primary);
 }
 
 [data-section-theme="dark"] {
